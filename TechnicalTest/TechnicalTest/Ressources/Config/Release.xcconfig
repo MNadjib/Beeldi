@@ -1,0 +1,16 @@
+//
+//  Release.xcconfig
+//  TechnicalTest
+//
+//  Created by nbellouni on 15/12/2019.
+//  Copyright © 2019 c2s. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-TechnicalTest/Pods-TechnicalTest.release.xcconfig"
+#include "Pods/Target Support Files/Pods-TechnicalTestTests/Pods-TechnicalTestTests.release.xcconfig"
+
+CONFIG = Release
+GOOGLE_SERVICE_FILE = GoogleService-Info-release
