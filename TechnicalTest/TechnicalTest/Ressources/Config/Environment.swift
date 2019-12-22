@@ -11,6 +11,7 @@ import UIKit
 public enum Environment {
     case configuration
     case googleService
+    case enableLog
     
     private var infoDict: [String: Any]  {
         get {
@@ -28,6 +29,8 @@ public enum Environment {
             return "Config"
         case .googleService:
             return "Google_Service_File"
+        case .enableLog:
+            return "Enable_Log"
         }
     }
     

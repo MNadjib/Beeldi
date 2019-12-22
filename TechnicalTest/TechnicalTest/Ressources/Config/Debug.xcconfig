@@ -13,4 +13,5 @@
 #include "Pods/Target Support Files/Pods-TechnicalTestTests/Pods-TechnicalTestTests.debug.xcconfig"
 
 CONFIG = Debug
-GOOGLE_SERVICE_FILE = GoogleService-Info-debug
+GOOGLE_SERVICE_FILE = GoogleService-Info-Debug
+ENABLELOG = 0
