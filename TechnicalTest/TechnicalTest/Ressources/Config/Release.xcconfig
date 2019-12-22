@@ -13,4 +13,5 @@
 #include "Pods/Target Support Files/Pods-TechnicalTestTests/Pods-TechnicalTestTests.release.xcconfig"
 
 CONFIG = Release
-GOOGLE_SERVICE_FILE = GoogleService-Info-release
+GOOGLE_SERVICE_FILE = GoogleService-Info-Release
+ENABLELOG = 0

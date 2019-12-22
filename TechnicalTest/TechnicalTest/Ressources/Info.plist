@@ -20,6 +20,8 @@
 	<string>1</string>
 	<key>Config</key>
 	<string>$(CONFIG)</string>
+	<key>Enable_Log</key>
+	<string>$(ENABLELOG)</string>
 	<key>Google_Service_File</key>
 	<string>$(GOOGLE_SERVICE_FILE)</string>
 	<key>LSRequiresIPhoneOS</key>

@@ -7,7 +7,8 @@
 //
 
 import UIKit
-import Firebase
+import FirebaseCore
+import FirebaseDatabase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -52,6 +53,7 @@ extension AppDelegate {
     private func setupFirebase() {
         if let file = Bundle.main.path(forResource: Environment.googleService.value(), ofType: "plist"), let option = FirebaseOptions.init(contentsOfFile:file) {
             FirebaseApp.configure(options: option)
+            Database.database().isPersistenceEnabled = true
         }
     }
 }
