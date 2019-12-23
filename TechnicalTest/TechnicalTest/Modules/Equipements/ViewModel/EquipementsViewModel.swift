@@ -42,7 +42,7 @@ class EquipementsViewModel: EquipementsViewModelProtocol {
                    let list = data.children.allObjects
                    return list.map { item -> Equipement? in
                        if let snap = item as? DataSnapshot {
-                           return Equipement(with: snap.value as? [String: Any] )
+                        return Equipement(with: snap.value as? [String: Any], snap.key)
                        }
                        return nil
                    }.compactMap { $0 }

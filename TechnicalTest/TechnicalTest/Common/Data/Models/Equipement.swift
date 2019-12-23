@@ -10,6 +10,7 @@ import UIKit
 
 
 struct Equipement {
+    var equipmentKey: String = ""
     var brand: String?
     var building: String?
     var domain: String?
@@ -26,9 +27,10 @@ struct Equipement {
     
     init() {}
     
-    init?(with dictionay: [String: Any]?) {
+    init(with dictionay: [String: Any]?, _ key: String) {
+        equipmentKey = key
         guard let dico = dictionay else {
-            return nil
+            return
         }
         brand = dico["brand"] as? String
         building = dico["building"] as? String

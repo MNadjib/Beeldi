@@ -6,4 +6,14 @@
   Copyright © 2019 c2s. All rights reserved.
 */
 
-"equipement" = "Équipement";
+"equipements" = "Équipements";
+"Name" = "Nom";
+"Domain" = "Domaine";
+"Faults" = "Défauts";
+
+"informattion" = "Information";
+"checkpoints" = "Points de contrôle";
+
+"checkpoint" = "Point de contrôle";
+"fault" = "Défaut";
+"recommandation" = "Préconisation";
