@@ -8,6 +8,9 @@
 
 import UIKit
 
+// Extension pour le chargement d'image
+// L'image chargée est enregistrée dans le cache
+// Le chargement est annulé lorsqu'un nouvel identifiant de demande est envoyé
 extension UIImageView {
 
     private static var taskKey = 0

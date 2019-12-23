@@ -10,10 +10,13 @@ import UIKit
 import RxCocoa
 import RxSwift
 
+//Coordinator for navigation and dependencies injections
 class EquipementsCoordinator {
+    
     private let window: UIWindow
     private let disposeBag = DisposeBag()
     private var equipementdetailCoordinator: EquipementDetailsCoordinator!
+    
     init(with window: UIWindow) {
         self.window = window
     }
@@ -26,8 +29,8 @@ class EquipementsCoordinator {
         equipementViewController.viewModel = viewModel
         window.rootViewController = nvc
         viewModel.presentEquipementDetails.subscribe(onNext: { [unowned self] equipement in
-            let ed = EquipementDetailsCoordinator(with: equipement)
-            ed.start()
+            let ed = EquipementDetailsCoordinator()
+            ed.start(with: equipement)
             equipementViewController.navigationController?.pushViewController(ed.equipemetDetailsViewContoller, animated: true)
             self.equipementdetailCoordinator = ed
         }).disposed(by: disposeBag)

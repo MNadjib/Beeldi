@@ -15,6 +15,10 @@
 		717477B423AAEA1900DDC3D6 /* EquipementTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717477B223AAEA1900DDC3D6 /* EquipementTableViewCell.xib */; };
 		717477B723AAEDE900DDC3D6 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717477B623AAEDE900DDC3D6 /* Error.swift */; };
 		717477B923ABB8B600DDC3D6 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717477B823ABB8B600DDC3D6 /* Helper.swift */; };
+		717EA9B323B02D5000EECD90 /* CheckpointTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EA9B123B02D5000EECD90 /* CheckpointTableViewCell.swift */; };
+		717EA9B423B02D5000EECD90 /* CheckpointTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717EA9B223B02D5000EECD90 /* CheckpointTableViewCell.xib */; };
+		717EA9BB23B0572600EECD90 /* EquipementInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EA9B923B0572600EECD90 /* EquipementInfoTableViewCell.swift */; };
+		717EA9BC23B0572600EECD90 /* EquipementInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717EA9BA23B0572600EECD90 /* EquipementInfoTableViewCell.xib */; };
 		7193444223ABCA0B0080E5E1 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7193444123ABCA0B0080E5E1 /* FirebaseHelper.swift */; };
 		7193444423ACC9500080E5E1 /* Equipement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7193444323ACC9500080E5E1 /* Equipement.swift */; };
 		7193444623AD27DD0080E5E1 /* ImageViewLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7193444523AD27DD0080E5E1 /* ImageViewLoading.swift */; };
@@ -31,6 +35,7 @@
 		71CAAFB323AEC64700FCA3A3 /* EquipementDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CAAFB123AEC64700FCA3A3 /* EquipementDetailsViewController.swift */; };
 		71CAAFB423AEC64700FCA3A3 /* EquipementDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71CAAFB223AEC64700FCA3A3 /* EquipementDetailsViewController.xib */; };
 		71CAAFB923AEC90900FCA3A3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71CAAFBB23AEC90900FCA3A3 /* Localizable.strings */; };
+		71CAAFBD23B0019700FCA3A3 /* Checkpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CAAFBC23B0019700FCA3A3 /* Checkpoint.swift */; };
 		EB8E2430F63D9569110CDBE7 /* Pods_TechnicalTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12056CE473AC488653BFC387 /* Pods_TechnicalTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +60,10 @@
 		717477B223AAEA1900DDC3D6 /* EquipementTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EquipementTableViewCell.xib; sourceTree = "<group>"; };
 		717477B623AAEDE900DDC3D6 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		717477B823ABB8B600DDC3D6 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		717EA9B123B02D5000EECD90 /* CheckpointTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckpointTableViewCell.swift; sourceTree = "<group>"; };
+		717EA9B223B02D5000EECD90 /* CheckpointTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckpointTableViewCell.xib; sourceTree = "<group>"; };
+		717EA9B923B0572600EECD90 /* EquipementInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipementInfoTableViewCell.swift; sourceTree = "<group>"; };
+		717EA9BA23B0572600EECD90 /* EquipementInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EquipementInfoTableViewCell.xib; sourceTree = "<group>"; };
 		7193444123ABCA0B0080E5E1 /* FirebaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
 		7193444323ACC9500080E5E1 /* Equipement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipement.swift; sourceTree = "<group>"; };
 		7193444523AD27DD0080E5E1 /* ImageViewLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewLoading.swift; sourceTree = "<group>"; };
@@ -77,6 +86,7 @@
 		71CAAFB123AEC64700FCA3A3 /* EquipementDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipementDetailsViewController.swift; sourceTree = "<group>"; };
 		71CAAFB223AEC64700FCA3A3 /* EquipementDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EquipementDetailsViewController.xib; sourceTree = "<group>"; };
 		71CAAFBA23AEC90900FCA3A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		71CAAFBC23B0019700FCA3A3 /* Checkpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkpoint.swift; sourceTree = "<group>"; };
 		8533A789E19FA68833BDCACB /* Pods-TechnicalTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTest.debug.xcconfig"; path = "Target Support Files/Pods-TechnicalTest/Pods-TechnicalTest.debug.xcconfig"; sourceTree = "<group>"; };
 		BD42C571AD0F0D8D0957810B /* Pods-TechnicalTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTestTests.debug.xcconfig"; path = "Target Support Files/Pods-TechnicalTestTests/Pods-TechnicalTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F31E83112FEE0531B1235C94 /* Pods-TechnicalTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTest.release.xcconfig"; path = "Target Support Files/Pods-TechnicalTest/Pods-TechnicalTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				7193444323ACC9500080E5E1 /* Equipement.swift */,
+				71CAAFBC23B0019700FCA3A3 /* Checkpoint.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -301,10 +312,22 @@
 		71CAAFAC23AEC5B700FCA3A3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				71CAAFBE23B0268500FCA3A3 /* Cell */,
 				71CAAFB123AEC64700FCA3A3 /* EquipementDetailsViewController.swift */,
 				71CAAFB223AEC64700FCA3A3 /* EquipementDetailsViewController.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		71CAAFBE23B0268500FCA3A3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				717EA9B123B02D5000EECD90 /* CheckpointTableViewCell.swift */,
+				717EA9B223B02D5000EECD90 /* CheckpointTableViewCell.xib */,
+				717EA9B923B0572600EECD90 /* EquipementInfoTableViewCell.swift */,
+				717EA9BA23B0572600EECD90 /* EquipementInfoTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		856CDCA4C9D17A0E2F9833B8 /* Frameworks */ = {
@@ -411,6 +434,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717EA9BC23B0572600EECD90 /* EquipementInfoTableViewCell.xib in Resources */,
+				717EA9B423B02D5000EECD90 /* CheckpointTableViewCell.xib in Resources */,
 				717477B423AAEA1900DDC3D6 /* EquipementTableViewCell.xib in Resources */,
 				717477A423A9786C00DDC3D6 /* GoogleService-Info-Release.plist in Resources */,
 				719E7FDC23A6656D00E09933 /* LaunchScreen.storyboard in Resources */,
@@ -500,10 +525,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717EA9BB23B0572600EECD90 /* EquipementInfoTableViewCell.swift in Sources */,
 				71CAAFAE23AEC60A00FCA3A3 /* EquipementDetailsCoordinator.swift in Sources */,
 				719E7FD023A6656B00E09933 /* AppDelegate.swift in Sources */,
 				71CAAFB023AEC62E00FCA3A3 /* EquipementDetailsViewModel.swift in Sources */,
+				717EA9B323B02D5000EECD90 /* CheckpointTableViewCell.swift in Sources */,
 				719E800423A694EE00E09933 /* EquipementsViewController.swift in Sources */,
+				71CAAFBD23B0019700FCA3A3 /* Checkpoint.swift in Sources */,
 				719E800723A6951900E09933 /* EquipementsViewModel.swift in Sources */,
 				719E800923A6953F00E09933 /* EquipementsCoordinator.swift in Sources */,
 				71CAAFB323AEC64700FCA3A3 /* EquipementDetailsViewController.swift in Sources */,
