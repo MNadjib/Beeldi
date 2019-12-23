@@ -25,7 +25,7 @@ class EquipementsViewController: UIViewController {
     }
     
     private func setupUI() {
-        self.title = localize("equipement")
+        self.title = localize("equipements")
         tableView.register(UINib(nibName: "EquipementTableViewCell", bundle: nil), forCellReuseIdentifier: "EquipementTableViewCellIdentifier")
     }
     
