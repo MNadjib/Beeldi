@@ -3,11 +3,10 @@
 //  TechnicalTest
 //
 //  Created by nbellouni on 20/12/2019.
-//  Copyright © 2019 c2s. All rights reserved.
+//  Copyright © 2019 nbellouni. All rights reserved.
 //
 
 import UIKit
-
 
 struct Equipement {
     var equipmentKey: String = ""

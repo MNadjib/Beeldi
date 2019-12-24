@@ -3,7 +3,7 @@
 //  TechnicalTest
 //
 //  Created by nbellouni on 19/12/2019.
-//  Copyright © 2019 c2s. All rights reserved.
+//  Copyright © 2019 nbellouni. All rights reserved.
 //
 
 import UIKit
@@ -11,8 +11,8 @@ import RxSwift
 import RxFirebase
 import FirebaseDatabase
 
-//Helper to mange data in firebase data base
-// Action set and get
+//Helper to manage data in firebase data base
+//Action set and get
 
 enum DatebaseRefPath: String {
        case equipment = "Equipments"
