@@ -3,14 +3,14 @@
 //  TechnicalTest
 //
 //  Created by nbellouni on 20/12/2019.
-//  Copyright © 2019 c2s. All rights reserved.
+//  Copyright © 2019 nbellouni. All rights reserved.
 //
 
 import UIKit
 
-// Extension pour le chargement d'image
-// L'image chargée est enregistrée dans le cache
-// Le chargement est annulé lorsqu'un nouvel identifiant de demande est envoyé
+// Extension for image loading
+// The loaded image is saved in the cache
+// The loading is canceled when a new request identifier is sent
 extension UIImageView {
 
     private static var taskKey = 0
